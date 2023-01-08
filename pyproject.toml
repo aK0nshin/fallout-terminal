@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fallout-terminal"
+version = "0.1.0"
+description = ""
+authors = ["aK0nshin <kon2work@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fallout_terminal"}]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+pyqt6 = "^6.4.0"
+pyinstaller = "^5.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
